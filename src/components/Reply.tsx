@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Reply() {
   return (
-    <div className="flex my-4">
+    <div className="flex my-2">
       <div className="w-12 h-12 rounded-full bg-emerald-600"></div>
       <div className="border rounded-lg border-gray-400 ml-6 p-2">
         <label>
