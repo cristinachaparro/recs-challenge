@@ -6,7 +6,7 @@ function Header() {
       <a href="https://getally.ai/">
         <Image width={40} height={40} src="/logo.jpg" alt="Ally logo" />
       </a>
-      <div className="flex border rounded-md border-sky-500 p-1">
+      <div className="flex border rounded-md border-sky-500 p-1 md:w-full max-w-2xl">
         <Image
           className="m-2"
           width={15}

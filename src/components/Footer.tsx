@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <div className="border-t-2 w-full flex justify-between items-center p-3">
+    <div className="border-t-2 w-full flex justify-between items-center p-3 md:hidden">
       <Link href="/">
         <Image src="/homeally.png" alt="home icon" width={40} height={40} />
       </Link>

@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className={`${inter.className} px-2 py-4`}>
+    <main className={`${inter.className} px-2 py-4 max-w-2xl mx-auto`}>
       {data.map((post) => (
         <Post key={post.id} post={post} />
       ))}
