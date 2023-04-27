@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Sidebar() {
   return (
-    <div className="hidden md:flex flex-col ml-3 mt-4">
+    <div className="absolute left-0 top-20 hidden lg:flex flex-col ml-3 mt-4">
       <Link className="flex items-center mb-2" href="/">
         <Image src="/homeally.png" alt="home icon" width={40} height={40} />
         <span className="text-gray-500 text-xl ml-1">Home</span>

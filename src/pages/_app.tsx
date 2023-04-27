@@ -8,11 +8,9 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <div className="h-screen flex flex-col">
       <Header />
-      <div className="flex grow overflow-y-auto">
-        <Sidebar />
-        <div className="grow overflow-y-auto">
-          <Component {...pageProps} />
-        </div>
+      <Sidebar />
+      <div className="grow overflow-y-auto">
+        <Component {...pageProps} />
       </div>
       <Footer />
     </div>
